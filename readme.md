@@ -13,10 +13,10 @@ demo 用view-model-delegates的格式，插入删除，多线程等都有涉及�
 
 ---
 ## 开发环境：
-python: 3.13.5
-pyside6: 6.9.1
+- python: 3.13.5
+- pyside6: 6.9.1
 
 ---
 ## 开发目的：
-学习一种高效率的架构模式。
-不再受限于QTableWidget这个垃圾控件。
+- 学习一种高效率的架构模式。
+- 不再受限于QTableWidget这个垃圾控件。
