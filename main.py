@@ -106,6 +106,12 @@ class MainWindow(QMainWindow):
         self.statusBar().showMessage(message, 3000)
         print(message)
 
+    def closeEvent(self, event):
+        for manager_component in [self.file_manager, self.image_info_manager, self.label_info_manager, self.label_type_manager]:
+            if manager_component:
+                manager_component.close()
+        self.close()
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
